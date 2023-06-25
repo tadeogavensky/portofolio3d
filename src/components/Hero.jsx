@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ModelCanvas />
+  {/*     <ModelCanvas /> */}
 
       <div className="absolute  w-full flex justify-center items-center">
         <a href="#about">

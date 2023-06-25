@@ -226,7 +226,7 @@ const projects = [
   {
     name: "Dentist Dashboard ",
     description:
-      "A dashboard of dentists fetched by an API using Axios for viewing each dentist in a card grid, with possibility to see the detail of one dentist and also you can add multiple to favorites and view them. It is stored in the Local Storage so the data is not going anywhere. Also there is a form contact to contact a dentist and dark mode is also included. (All is a mockup) ",
+      "A dashboard of dentists fetched by an API using Axios for viewing each dentist in a card grid, with possibility to see the detail of one dentist and also you can add multiple to favorites.",
     tags: [
       {
         name: "react",
