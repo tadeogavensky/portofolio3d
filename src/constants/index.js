@@ -8,18 +8,23 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   nespresso,
-  carrent,
+  java,
+  orm,
+  postman,
+  api,
+  spring,
   jobit,
-  tripguide,
-  threejs,
+  mysql,
+  nextjs,
+  cpu,
+  dentists,
+  loopify,
+  planex
 } from "../assets";
 
 export const navLinks = [
@@ -58,6 +63,10 @@ const services = [
 
 const technologies = [
   {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -74,40 +83,48 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "JAVA",
+    icon: java,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "MySQL",
+    icon: mysql,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "ORMs",
+    icon: orm,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Postman",
+    icon: postman,
+  },
+  {
+    name: "APIs",
+    icon: api,
+  },
+  {
+    name: "Spring",
+    icon: spring,
   },
 ];
 
@@ -159,16 +176,42 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Loopify",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based e-commerce platform, for exploring and buying music products",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: loopify,
+    source_code_link: "https://github.com/tadeogavensky/loopify-next",
+    live: "https://loopify-next-mu3w.vercel.app/",
+  },
+  {
+    name: "PlaneX",
+    description:
+      "Web application that enables users create plans in a quick motion, view them, and also roll a random one for more fun!",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
@@ -176,50 +219,53 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: planex,
+    source_code_link: "https://github.com/tadeogavensky/planex",
+    live: "https://github.com/tadeogavensky/planex",
   },
   {
-    name: "Job IT",
+    name: "Dentist Dashboard ",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A dashboard of dentists fetched by an API using Axios for viewing each dentist in a card grid, with possibility to see the detail of one dentist and also you can add multiple to favorites and view them. It is stored in the Local Storage so the data is not going anywhere. Also there is a form contact to contact a dentist and dark mode is also included. (All is a mockup) ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "vite",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "axios",
         color: "pink-text-gradient",
       },
+      {
+        name: "reducer",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: dentists,
+    source_code_link:
+      "https://github.com/tadeogavensky/fe3-final-tadeog-felipev",
+    live: "https://fe3-final-tadeog-felipev.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Real Time CPU Dashboard ",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A dashboard to watch live your CPU usage, cores, total memory RAM and free space.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "socket.io",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: cpu,
+    source_code_link: "https://github.com/tadeogavensky/RealTimeCPU",
   },
 ];
 

@@ -25,7 +25,7 @@ const Model = ({ isMobile, isTablet }) => {
         scale={isMobile ? 0.3 : isTablet ? 0.4 : 0.6}
         position={
           isMobile
-            ? [0, -1.0, -0.6]
+            ? [0.3, -1.0, -0.6]
             : isTablet
             ? [0, -1.5, -0.8]
             : [0, -3.25, -1.5]
