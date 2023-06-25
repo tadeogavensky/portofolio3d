@@ -24,7 +24,7 @@ import {
   cpu,
   dentists,
   loopify,
-  planex
+  planex,
 } from "../assets";
 
 export const navLinks = [
@@ -110,14 +110,7 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "ORMs",
-    icon: orm,
-  },
-  {
-    name: "Postman",
-    icon: postman,
-  },
+
   {
     name: "APIs",
     icon: api,
