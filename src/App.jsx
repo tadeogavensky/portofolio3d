@@ -12,6 +12,14 @@ import {
   StarsCanvas,
 } from "./components";
 const App = () => {
+  const elementsWithTouchNone = document.querySelectorAll(
+    '[style*="touch-action: none;"]'
+  );
+
+  elementsWithTouchNone.forEach((element) => {
+    element.style.touchAction = "auto";
+  });
+
   return (
     <>
       <BrowserRouter>

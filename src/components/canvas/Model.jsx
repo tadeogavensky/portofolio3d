@@ -25,7 +25,7 @@ const Model = ({ isMobile, isTablet }) => {
         scale={isMobile ? 0.3 : isTablet ? 0.4 : 0.6}
         position={
           isMobile
-            ? [0, -1.0, -0.6]
+            ? [4, -1.0, -0.6]
             : isTablet
             ? [0, -1.5, -0.8]
             : [0, -3.25, -1.5]
@@ -41,6 +41,10 @@ const ModelCanvas = () => {
   const [isTablet, setIsTablet] = useState(false);
 
   useEffect(() => {
+
+
+   
+
     // Add a listener for changes to the screen size
     const mediaQueryMobile = window.matchMedia("(max-width: 500px)");
     const mediaQueryTablet = window.matchMedia("(max-width: 1020px)");
