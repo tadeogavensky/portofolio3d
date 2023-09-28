@@ -32,12 +32,16 @@ import loopify from "./loopify.jpg";
 import cpu from "./cpu.jpg";
 import planex from "./planex.jpg";
 import dentists from "./dentists.jpg";
+import infinit from "./infinit.png";
+import tech from "./tech.png";
 
 export {
   logo,
   backend,
   creator,
   mobile,
+  tech,
+  infinit,
   web,
   github,
   menu,

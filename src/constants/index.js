@@ -24,7 +24,9 @@ import {
   cpu,
   dentists,
   loopify,
+  infinit,
   planex,
+  tech,
 } from "../assets";
 
 export const navLinks = [
@@ -140,34 +142,57 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+const testimonials = [];
 
 const projects = [
+  {
+    name: "Infinit",
+    description:
+      "Web-based e-commerce platform, for exploring and renting luxury cars. Feautures like looking by city, range of dates, booking, log in and sign up, manager dashboard, etc.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: infinit,
+    source_code_link: "https://github.com/tadeogavensky/infinit-ecommerce",
+    live: "https://main.drz43xy0o4zdo.amplifyapp.com/",
+  },
+  {
+    name: "Tech Project",
+    description:
+      "This a fully responsive web made with React, Tailwind and Framer showcasing Apple products.",
+    tags: [
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "framer",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: tech,
+    source_code_link: "https://github.com/tadeogavensky/tech-project",
+    live: "https://tech-project-theta.vercel.app/",
+  },
   {
     name: "Loopify",
     description:
@@ -193,28 +218,6 @@ const projects = [
     image: loopify,
     source_code_link: "https://github.com/tadeogavensky/loopify-next",
     live: "https://loopify-next-mu3w.vercel.app/",
-  },
-  {
-    name: "PlaneX",
-    description:
-      "Web application that enables users create plans in a quick motion, view them, and also roll a random one for more fun!",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: planex,
-    source_code_link: "https://github.com/tadeogavensky/planex",
-    live: "https://github.com/tadeogavensky/planex",
   },
   {
     name: "Dentist Dashboard ",
@@ -243,23 +246,7 @@ const projects = [
       "https://github.com/tadeogavensky/fe3-final-tadeog-felipev",
     live: "https://fe3-final-tadeog-felipev.vercel.app/",
   },
-  {
-    name: "Real Time CPU Dashboard ",
-    description:
-      "A dashboard to watch live your CPU usage, cores, total memory RAM and free space.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "socket.io",
-        color: "green-text-gradient",
-      },
-    ],
-    image: cpu,
-    source_code_link: "https://github.com/tadeogavensky/RealTimeCPU",
-  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
