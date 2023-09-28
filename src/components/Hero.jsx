@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import ModelCanvas from "./canvas/Model";
 const Hero = () => {
   return (
-    <section className="relative w-full h-[400px] sm:h-screen pb-40 mx-auto">
+    <section className="relative w-full h-[400px] sm:h-[500px] pb-40 mx-auto">
       <div className="sm:px-16 px-6 absolute inset-0 top-[120px] max-w-7xl mx-auto flex items-start gap-5">
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff]"></div>
@@ -21,7 +21,7 @@ const Hero = () => {
 
   {/*     <ModelCanvas />
  */}
-      <div className="absolute  w-full flex justify-center items-center">
+   {/*    <div className="absolute  w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
@@ -37,7 +37,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };
