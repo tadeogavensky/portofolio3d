@@ -169,7 +169,7 @@ const projects = [
     ],
     image: infinit,
     source_code_link: "https://github.com/tadeogavensky/infinit-ecommerce",
-    live: "https://main.drz43xy0o4zdo.amplifyapp.com/",
+    live: "https://infinit-ecommerce.vercel.app/",
   },
   {
     name: "Tech Project",
