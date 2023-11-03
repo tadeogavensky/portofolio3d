@@ -24,6 +24,7 @@ import {
   cpu,
   dentists,
   loopify,
+  kaba,
   infinit,
   planex,
   tech,
@@ -146,6 +147,32 @@ const testimonials = [];
 
 const projects = [
   {
+    name: "Kaba",
+    description:
+      "Web app for hiring electricians, house cleaners, plumbers,etc; like the Uber for domestic services, in an instant. Either you can be a Client or a Worker, or both! Earn money with any skill you have in Kaba.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "postresql",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: kaba,
+    source_code_link: "https://github.com/tadeogavensky/kaba",
+    live: "https://kaba-livid.vercel.app/",
+  },
+  {
     name: "Infinit",
     description:
       "Web-based e-commerce platform, for exploring and renting luxury cars. Feautures like looking by city, range of dates, booking, log in and sign up, manager dashboard, etc.",
@@ -246,7 +273,6 @@ const projects = [
       "https://github.com/tadeogavensky/fe3-final-tadeog-felipev",
     live: "https://fe3-final-tadeog-felipev.vercel.app/",
   },
-  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

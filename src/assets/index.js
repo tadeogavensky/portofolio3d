@@ -34,6 +34,8 @@ import planex from "./planex.jpg";
 import dentists from "./dentists.jpg";
 import infinit from "./infinit.png";
 import tech from "./tech.png";
+import kaba from "./kaba.png";
+
 
 export {
   logo,
@@ -44,6 +46,7 @@ export {
   infinit,
   web,
   github,
+  kaba,
   menu,
   close,
   css,
