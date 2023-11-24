@@ -28,6 +28,7 @@ import {
   infinit,
   planex,
   tech,
+  pokepinterest,
 } from "../assets";
 
 export const navLinks = [
@@ -146,6 +147,28 @@ const experiences = [
 const testimonials = [];
 
 const projects = [
+  {
+    name: "PokePinterest",
+    description:
+      "Embark on a captivating journey through the vast world of Pokemon with Poke Pinterest, the ultimate web app designed for Pokemon enthusiasts and trainers alike. Immerse yourself in a visually stunning and user-friendly platform that brings together the charm of Pokemon discovery and the joy of collecting.",
+    tags: [
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "pokeapi",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: kaba,
+    source_code_link: "https://github.com/tadeogavensky/PokePinterest",
+    live: "https://poke-pinterest.vercel.app",
+  },
   {
     name: "Kaba",
     description:

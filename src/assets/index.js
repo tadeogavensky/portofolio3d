@@ -35,6 +35,8 @@ import dentists from "./dentists.jpg";
 import infinit from "./infinit.png";
 import tech from "./tech.png";
 import kaba from "./kaba.png";
+import pokepinterest from "./pokepinterest.png";
+
 
 
 export {
@@ -75,4 +77,5 @@ export {
   planex,
   cpu,
   dentists,
+  pokepinterest
 };
