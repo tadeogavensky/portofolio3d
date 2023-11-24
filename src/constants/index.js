@@ -165,7 +165,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: kaba,
+    image: pokepinterest,
     source_code_link: "https://github.com/tadeogavensky/PokePinterest",
     live: "https://poke-pinterest.vercel.app",
   },
