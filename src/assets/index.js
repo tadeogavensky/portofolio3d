@@ -18,7 +18,6 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import nespresso from "./company/nespresso.jpg";
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import java from "./tech/java.svg";
@@ -36,8 +35,6 @@ import infinit from "./infinit.png";
 import tech from "./tech.png";
 import kaba from "./kaba.png";
 import pokepinterest from "./pokepinterest.png";
-
-
 
 export {
   logo,
@@ -69,7 +66,6 @@ export {
   typescript,
   nespresso,
   java,
-  carrent,
   jobit,
   tripguide,
   external,
@@ -77,5 +73,5 @@ export {
   planex,
   cpu,
   dentists,
-  pokepinterest
+  pokepinterest,
 };
